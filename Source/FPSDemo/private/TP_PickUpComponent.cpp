@@ -1,6 +1,8 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 #include "TP_PickUpComponent.h"
+#include "FPSDemoCharacter.h"
+
 
 UTP_PickUpComponent::UTP_PickUpComponent()
 {

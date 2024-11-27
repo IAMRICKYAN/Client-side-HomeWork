@@ -2,13 +2,13 @@
 
 
 #include "TP_WeaponComponent.h"
-#include "FPSDemoCharacter.h"
 #include "FPSDemoProjectile.h"
 #include "GameFramework/PlayerController.h"
 #include "Camera/PlayerCameraManager.h"
 #include "Kismet/GameplayStatics.h"
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
+#include "FPSDemoCharacter.h"
 #include "Animation/AnimInstance.h"
 #include "Engine/LocalPlayer.h"
 #include "Engine/World.h"

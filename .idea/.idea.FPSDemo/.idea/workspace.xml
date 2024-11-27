@@ -12,7 +12,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3ce00a7-c038-4ae5-995e-49fdda47da16" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FPSDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FPSDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Blueprints/BP_PickUp_Rifle.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPerson/Blueprints/BP_PickUp_Rifle.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/FPSDemo/FPSDemoCharacter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/FPSDemo/FPSDemoCharacter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/FPSDemo/FPSDemoGameMode.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/FPSDemo/FPSDemoGameMode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/FPSDemo/FPSDemoPlayerController.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/FPSDemo/FPSDemoPlayerController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/FPSDemo/FPSDemoProjectile.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/FPSDemo/FPSDemoProjectile.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/FPSDemo/TP_PickUpComponent.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/FPSDemo/TP_PickUpComponent.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/FPSDemo/TP_WeaponComponent.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/FPSDemo/TP_WeaponComponent.h" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,26 +45,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "C++ Project.FPSDemo.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;C++ Project.FPSDemo.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\12233\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\12233\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\12233\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\12233\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\12233\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\12233\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="C++ Project.FPSDemo">
     <configuration name="FPSDemo" type="CppProject" factoryName="C++ Project">
       <configuration_1>
@@ -489,6 +503,10 @@
       <workItem from="1731902248758" duration="3512000" />
       <workItem from="1731911596086" duration="942000" />
       <workItem from="1732447154777" duration="3185000" />
+      <workItem from="1732676547714" duration="1231000" />
+      <workItem from="1732677831404" duration="40000" />
+      <workItem from="1732706115801" duration="298000" />
+      <workItem from="1732706502336" duration="5420000" />
     </task>
     <servers />
   </component>
