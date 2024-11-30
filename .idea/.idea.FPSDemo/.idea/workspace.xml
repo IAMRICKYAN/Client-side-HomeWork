@@ -13,20 +13,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d3ce00a7-c038-4ae5-995e-49fdda47da16" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FPSDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FPSDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Blueprints/BP_PickUp_Rifle.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPerson/Blueprints/BP_PickUp_Rifle.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/FPSDemo/FPSDemoCharacter.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/FPSDemo/FPSDemoCharacter.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/FPSDemo/FPSDemoGameMode.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/FPSDemo/FPSDemoGameMode.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/FPSDemo/FPSDemoPlayerController.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/FPSDemo/FPSDemoPlayerController.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/FPSDemo/FPSDemoProjectile.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/FPSDemo/FPSDemoProjectile.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/FPSDemo/TP_PickUpComponent.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/FPSDemo/TP_PickUpComponent.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/FPSDemo/TP_WeaponComponent.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/FPSDemo/TP_WeaponComponent.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEditor.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/AFPSDemo/Blueprints/BP_PickUp_Rifle.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AFPSDemo/Blueprints/BP_PickUp_Rifle.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FPSDemo.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/FPSDemo.uproject" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +39,7 @@
   &quot;keyToString&quot;: {
     &quot;C++ Project.FPSDemo.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;PlayerState&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -507,6 +497,7 @@
       <workItem from="1732677831404" duration="40000" />
       <workItem from="1732706115801" duration="298000" />
       <workItem from="1732706502336" duration="5420000" />
+      <workItem from="1732977934499" duration="3933000" />
     </task>
     <servers />
   </component>
