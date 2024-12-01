@@ -13,10 +13,14 @@
   <component name="ChangeListManager">
     <list default="true" id="d3ce00a7-c038-4ae5-995e-49fdda47da16" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FPSDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FPSDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEditor.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AFPSDemo/Blueprints/BP_PickUp_Rifle.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AFPSDemo/Blueprints/BP_PickUp_Rifle.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FPSDemo.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/FPSDemo.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/AFPSDemo/Blueprints/TestWeapon.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AFPSDemo/Blueprints/TestWeapon.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequin_UE4/Meshes/SK_Mannequin_Skeleton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequin_UE4/Meshes/SK_Mannequin_Skeleton.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPersonArms/Animations/FirstPerson_AnimBP.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonArms/Animations/FirstPerson_AnimBP.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPersonArms/Character/Mesh/SK_Mannequin_Arms_Skeleton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonArms/Character/Mesh/SK_Mannequin_Arms_Skeleton.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/FPSDemo/private/FPSDemoCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/FPSDemo/private/FPSDemoCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/FPSDemo/private/Weapon/WeaponServerBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/FPSDemo/private/Weapon/WeaponServerBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/FPSDemo/public/FPSDemoCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/FPSDemo/public/FPSDemoCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/FPSDemo/public/Weapon/WeaponServerBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/FPSDemo/public/Weapon/WeaponServerBase.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +29,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -45,6 +52,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;SolutionBuilderGeneralOptionsPage&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -498,6 +506,9 @@
       <workItem from="1732706115801" duration="298000" />
       <workItem from="1732706502336" duration="5420000" />
       <workItem from="1732977934499" duration="3933000" />
+      <workItem from="1733024900201" duration="2898000" />
+      <workItem from="1733040052864" duration="1125000" />
+      <workItem from="1733042359696" duration="717000" />
     </task>
     <servers />
   </component>

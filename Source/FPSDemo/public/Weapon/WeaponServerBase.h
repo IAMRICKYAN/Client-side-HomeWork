@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "WeaponClientBase.h"
 #include "GameFramework/Actor.h"
 #include "WeaponServerBase.generated.h"
 
@@ -38,6 +39,10 @@ public:
 	UPROPERTY(EditAnywhere)
 	USphereComponent* SphereCollision;
 
+	UPROPERTY(EditAnywhere,BlueprintReadWrite)
+	TSubclassOf<AWeaponClientBase> ClientWeaponBaseBPClass;
+	
+
 	/** Projectile class to spawn */
 	UPROPERTY(EditDefaultsOnly, Category=Projectile)
 	TSubclassOf<class AFPSDemoProjectile> ProjectileClass;
@@ -58,7 +63,11 @@ protected:
 	UFUNCTION()
 	void OnSphereBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
-	
+	UFUNCTION()
+	void EquipWeapon();
+
+
+
 	
 public:	
 	// Called every frame

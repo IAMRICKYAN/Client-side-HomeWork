@@ -99,3 +99,55 @@ void AFPSDemoCharacter::Look(const FInputActionValue& Value)
 		AddControllerPitchInput(LookAxisVector.Y);
 	}
 }
+
+void AFPSDemoCharacter::EquipPrimary(AWeaponServerBase* WeaponBaseServer)
+{
+	if(ServerPrimaryWeapon)
+	{
+		
+	}
+	else
+	{
+		ServerPrimaryWeapon = WeaponBaseServer;
+		ServerPrimaryWeapon->SetOwner(this);
+		ServerPrimaryWeapon->K2_AttachToComponent(
+			GetMesh(),
+			TEXT("Weapon_L"),
+			EAttachmentRule::SnapToTarget,
+			EAttachmentRule::SnapToTarget,
+			EAttachmentRule::SnapToTarget,
+			true);
+
+		ClientEquipFPArmsPrimay_Implementation();
+	}
+}
+
+void AFPSDemoCharacter::ClientEquipFPArmsPrimay_Implementation()
+{
+	if(ServerPrimaryWeapon)
+	{
+		if(ClientPrimaryWeapon)
+		{
+			
+		}
+		else
+		{
+			FActorSpawnParameters SpawnInfo;
+			SpawnInfo.Owner = this;
+			SpawnInfo.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+		
+			ClientPrimaryWeapon = GetWorld()->SpawnActor<AWeaponClientBase>(ServerPrimaryWeapon->ClientWeaponBaseBPClass,GetActorTransform(),SpawnInfo);
+
+			ClientPrimaryWeapon->K2_AttachToComponent(
+				GetMesh1P(),
+				TEXT("weapon_r_Socket"),
+				EAttachmentRule::SnapToTarget,
+				EAttachmentRule::SnapToTarget,
+				EAttachmentRule::SnapToTarget,
+				true);
+
+			//添加动画
+		}
+		
+	}
+}

@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "Logging/LogMacros.h"
+#include "Weapon/WeaponServerBase.h"
 #include "FPSDemoCharacter.generated.h"
 
 class UInputComponent;
@@ -37,21 +38,27 @@ class AFPSDemoCharacter : public ACharacter
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category=Input, meta=(AllowPrivateAccess = "true"))
 	UInputAction* MoveAction;
 
+	/** Look Input Action */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
+	class UInputAction* LookAction;
 
 	
 public:
 	AFPSDemoCharacter();
 
+	/** Returns Mesh1P subobject **/
+	USkeletalMeshComponent* GetMesh1P() const { return Mesh1P; }
+	/** Returns FirstPersonCameraComponent subobject **/
+	UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
+
+	void EquipPrimary(AWeaponServerBase* WeaponBaseServer);
+
+	UFUNCTION(Client,Reliable)
+	void ClientEquipFPArmsPrimay();
+
 protected:
 	virtual void BeginPlay();
-
-public:
-		
-	/** Look Input Action */
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
-	class UInputAction* LookAction;
-
-protected:
+	
 	/** Called for movement input */
 	void Move(const FInputActionValue& Value);
 
@@ -63,11 +70,11 @@ protected:
 	virtual void SetupPlayerInputComponent(UInputComponent* InputComponent) override;
 	// End of APawn interface
 
-public:
-	/** Returns Mesh1P subobject **/
-	USkeletalMeshComponent* GetMesh1P() const { return Mesh1P; }
-	/** Returns FirstPersonCameraComponent subobject **/
-	UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
+private:
+	UPROPERTY( meta = (AllowPrivateAccess = "true"))
+	AWeaponServerBase* ServerPrimaryWeapon;
 
+	UPROPERTY( meta = (AllowPrivateAccess = "true"))
+	AWeaponClientBase* ClientPrimaryWeapon;
 };
 

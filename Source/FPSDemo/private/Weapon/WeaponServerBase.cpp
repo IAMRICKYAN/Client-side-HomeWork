@@ -48,17 +48,27 @@ void AWeaponServerBase::BeginPlay()
 void AWeaponServerBase::OnSphereBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
 	UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	
-
 	AFPSDemoCharacter* Character = Cast<AFPSDemoCharacter>(OtherActor);
 	if(Character)
 	{
+		EquipWeapon();
 		if(GEngine)
 		{
 			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Weapon Overlapped"));
 		}
+		Character->EquipPrimary(this);
 	}
 }
+
+void AWeaponServerBase::EquipWeapon()
+{
+	WeaponMesh->SetEnableGravity(false);
+	WeaponMesh->SetSimulatePhysics(false);
+	SphereCollision->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	WeaponMesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+
+}
+
 
 // Called every frame
 void AWeaponServerBase::Tick(float DeltaTime)
